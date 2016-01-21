@@ -3,10 +3,12 @@ Vagrant - Nginx Sandbox
 
 Vagrant setup for an Nginx Sandbox
 
-- CentOS
+- Ubuntu 64bit Linux
 - Nginx
-- PHP 5.6
+- PHP
+- Java
+- Scala
 - MySQL
 - MongoDB
 - Elasticsearch
-
+- Redis
