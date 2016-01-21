@@ -4,4 +4,6 @@ Vagrant.configure("2") do |config|
 	config.vm.provision "shell", path: "scripts/ubuntu.sh"
 	config.vm.provision "shell", path: "scripts/nginx.sh"
 	config.vm.provision "shell", path: "scripts/php.sh"
+	config.vm.provision "shell", path: "scripts/java.sh"
+	config.vm.provision "shell", path: "scripts/elasticsearch.sh"
 end
